@@ -5,6 +5,6 @@
    tasks:
    - name: This will write info into a file under /tmp
      copy:
-      dest: /tmp/filenew2.txt
+      dest: /tmp/filenew3.txt
       content: "This file is created based on when expression!!"
      when: true
